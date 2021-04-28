@@ -1,0 +1,35 @@
+<document html>
+<html>
+<head>
+<title>Feet to Meters Length Converter</title>
+<style>
+a:link { color: green;}
+a:visited {color: pink;}
+a:hover {color: red;}
+a:active {color: yellow;}
+</style>
+</head>
+<body>
+<img src="Phone Storage/Pictures/Instagram/my.jpg">
+<a href="content://com.android.providers.downloads.documents/document/msf%3A18888">go to calculator</a>
+<a href="#last">go to last<a>
+<marquee direction="right"><img  src="Phone Storage/sdcard/DCIM/Camera/IMG20210413132508.jpg" width="50Px" height="50px"></marquee>
+<h2>Length Converter by software bulls</h2>
+<p>Type a value in the Feet field to convert the value to Meters:</p>
+
+<p>
+  <label>Feet</label>
+  <input id="inputFeet" type="number" placeholder="Feet" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Meters: <span id="outputMeters"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputMeters").innerHTML=valNum/3.2808;
+}
+</script>
+<p id="last">this is last</p>
+</body>
+</html>
+body>
+</html>
